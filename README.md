@@ -1,7 +1,3 @@
-<p align="center">
-<a name="top" href="https://github.com/addy-dclxvi/almighty-dotfiles/"><img src="https://raw.githubusercontent.com/addy-dclxvi/almighty-dotfiles/master/header.png"></a>
-</p>
-
 ## Description
 My attempt to make u/goochnomenclature's mockup becomes real.
 
