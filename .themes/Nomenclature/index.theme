@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Nomenclature
+Comment=An attempt to make a mockup comes true. Based on Arc.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Nomenclature
+MetacityTheme=Nomenclature
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=140;y=17"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="uint" value="8"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="10537"/>
+        <value type="uint" value="9766"/>
+        <value type="uint" value="13107"/>
+        <value type="uint" value="65535"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-3" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value=""/>
+      <property name="button-icon" type="string" value="/home/addy/Pictures/start.png"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+    </property>
+    <property name="plugin-1" type="string" value="appmenu"/>
+  </property>
+</channel>

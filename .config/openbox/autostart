@@ -1,0 +1,76 @@
+# Put your startup items here (I mean below)
+# I have made some example, just uncomment the line that you need to get it starts on session
+# And add more items if You need
+# Don't forget to add ampersand for process those are running in background ;)
+# And also don't forget, make sure You have the package before uncomment a line :D
+
+# Note : In this default config, I never use any apps that fill my system tray.
+# Filling my system tray is againts my Rice philosophy :D
+
+
+## tint2 panel, one of my favourite panel :)
+tint2 &
+
+## The most eye candy bar (or panel replacement) I ever tried
+#polybar -c ~/.config/openbox/polybar top &
+
+## Set wallpaper with feh
+feh --bg-fill ~/.wallpaper.jpg
+
+## Fontconfig needs a settings daemon to be loaded.
+## If You think xfsettingsd is too bloated, use xsettingsd :)
+#xsettingsd &
+
+## Who don't love an eye candy shadow?? Launch compton
+compton -b --config ~/.config/compton.conf &
+
+## Music is my only friend :(
+mpd &
+
+## Conky, an efficient way for system info
+#conky &
+
+## Turn off/on System Beep
+#xset b off
+
+## Thunar daemon mode
+#thunar --daemon &
+
+## Plank, a lightweight & eye candy replacement for taskbar
+#plank &
+
+## Keep Your eyes safe from your monitor radiation
+#redshift-gtk &
+
+## Numlock, probably You need it start automatically
+#numlockx &
+
+## GNOME PolicyKit authentication
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Volume keys daemon
+#xfce4-volumed &
+
+## Enable power management
+#xfce4-power-manager &
+
+## XFCE4 Settings daemon
+#xfsettingsd &
+
+## Start xscreensaver
+#xscreensaver -no-splash &
+
+## Clipboard Manager
+#(sleep 3; clipit) &
+
+## I love my wife! Upss typo, I mean wifi
+#(sleep 5; nm-applet) &
+
+## Bluetooth system tray
+#(sleep 3; blueberry-tray) &
+
+## Volume control for systray
+#(sleep 2; volumeicon) &
+
+xfce4-panel &
+xfsettingsd &
