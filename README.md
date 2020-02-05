@@ -8,9 +8,10 @@ Like default Crunchbang or Bunsenlabs setup.
 ### With More Tray Icons
 ![full](https://raw.githubusercontent.com/addy-dclxvi/diminished-tray-icons/master/preview-full.png)
 <br />
-From left to right: pnmixer, xfce4-power-manager, nm-applet, clipit, transmission-gtk, thunar (dialog).
-Not a complete set, but enough for my necessity. For other available icons, just check inside the folder.
-By the way, the panel I user for that preview is Fluxbox panel with 24x24 tray box size.
+From left to right: pnmixer, xfce4-power-manager, nm-applet, clipit, audacious, transmission-gtk, thunar (dialog).
+Not a complete set, but enough for my necessity. For other available icons, just check inside the *status* folder.
+It still has more icons not visible in this preview image.
+By the way, the panel I use for that preview is Fluxbox panel with 24x24 tray box size.
 
 ## How to use
 - Clone this repo to *~/.icons* folder
